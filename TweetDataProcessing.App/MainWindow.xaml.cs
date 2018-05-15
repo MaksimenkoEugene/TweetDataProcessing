@@ -105,7 +105,8 @@ namespace TweetDataProcessing.App
 
                         foreach (var result in results)
                         {
-                            Dispatcher.BeginInvoke(updateUIResult, String.Format("{0}-{1}-{2}", result.Id, result.Stamp, result.Text));
+                            Dispatcher.BeginInvoke(updateUIResult, Environment.NewLine);
+                            Dispatcher.BeginInvoke(updateUIResult, String.Format(@"{0}-{1}-{2}", result.Id, result.Stamp, result.Text.Replace("\n", "\\n").Replace("\r", "\\r")));
                         }
 
                         logger.WriteLog(String.Format("Count: {0}", results.Count));
