@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2043
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetDataProcessing.DTO", "TweetDataProcessing.DTO\TweetDataProcessing.DTO.csproj", "{EE231B57-E57D-4ACA-89AB-B76D169AC5EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetDataProcessing.App", "TweetDataProcessing.App\TweetDataProcessing.App.csproj", "{CF48D60B-CEED-443C-8026-A1117776B279}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetDataProcessing.Common", "TweetDataProcessing.Common\TweetDataProcessing.Common.csproj", "{D5452488-A1A2-4669-870D-F735942022DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetDataProcessing.Contracts", "TweetDataProcessing.Contracts\TweetDataProcessing.Contracts.csproj", "{EC078E0E-E169-4E1C-B4B6-37DB6AA95F90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TweetDataProcessing.Data", "TweetDataProcessing.Data\TweetDataProcessing.Data.csproj", "{F6081321-8821-4314-9CEF-B38E51F0CC31}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{39BD7BBD-78C2-4835-B614-3031F7C1F198}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.txt = ReadMe.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE231B57-E57D-4ACA-89AB-B76D169AC5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE231B57-E57D-4ACA-89AB-B76D169AC5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE231B57-E57D-4ACA-89AB-B76D169AC5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE231B57-E57D-4ACA-89AB-B76D169AC5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF48D60B-CEED-443C-8026-A1117776B279}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF48D60B-CEED-443C-8026-A1117776B279}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF48D60B-CEED-443C-8026-A1117776B279}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF48D60B-CEED-443C-8026-A1117776B279}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5452488-A1A2-4669-870D-F735942022DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5452488-A1A2-4669-870D-F735942022DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5452488-A1A2-4669-870D-F735942022DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5452488-A1A2-4669-870D-F735942022DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC078E0E-E169-4E1C-B4B6-37DB6AA95F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC078E0E-E169-4E1C-B4B6-37DB6AA95F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC078E0E-E169-4E1C-B4B6-37DB6AA95F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC078E0E-E169-4E1C-B4B6-37DB6AA95F90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6081321-8821-4314-9CEF-B38E51F0CC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6081321-8821-4314-9CEF-B38E51F0CC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6081321-8821-4314-9CEF-B38E51F0CC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6081321-8821-4314-9CEF-B38E51F0CC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33AA845B-94B8-4A38-811A-97ED3B1CC875}
+	EndGlobalSection
+EndGlobal
